@@ -2,5 +2,9 @@ import wollok.game.*
 
 class Fondo {
 	const property position = game.at(0, 0)
-	var property image 
+	var property image = "baldosa.jpg"
+
+	method puedeComerse() = false
+	method afectar(bubba) { return 0}
+
 }
